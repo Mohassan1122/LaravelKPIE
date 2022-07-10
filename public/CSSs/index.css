@@ -1,0 +1,40 @@
+.blog-header {
+    line-height: 1;
+    border-bottom: 1px solid #e5e5e5;
+  }
+
+  .blog-header-logo {
+    font-family: monospace, Georgia, "Times New Roman", serif/*rtl:Amiri, Georgia, "Times New Roman", serif*/;
+    font-size: 2.0rem;
+    text-decoration: none;
+    color:#eeeff4;
+    padding: 12px;
+    margin-left: 20px;
+  }
+
+  .blog-header-logo:hover {
+    color:  #e5e5e5;
+  }
+ .style{
+    text-decoration: none;
+    margin-right: 50px;
+ }
+ .style:hover{
+    background-color: #f1f1f1;
+    padding: 5px;
+
+ }
+
+ .img2 {
+    width: 70rem;
+    position: absolute;
+    left: 550px;
+    top: 20px;
+    z-index: 10;
+}
+
+  @media (max-width:767px) {
+    button.color-change {
+        background-color: var(--secondary);
+    }
+}
